@@ -1,0 +1,27 @@
+[[source]]
+
+url = "https://pypi.python.org/simple"
+verify_ssl = true
+name = "pypi"
+
+
+[dev-packages]
+
+
+
+[packages]
+
+gevent = "==1.0.2"
+mako = "*"
+thrift = "==0.9.2"
+pymysql = "*"
+data-packer = "*"
+requests = "*"
+xlwt = "*"
+pyyaml = "*"
+six = "*"
+
+
+[requires]
+
+python_version = "2.7"
